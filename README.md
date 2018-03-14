@@ -720,6 +720,8 @@ Access to the database can be gained from the Ames site (http://www.cityofames.o
 
 ### Benchmark
 
+Let's use the average Sale Price as our naive benchmark.
+
 
 ### Performance Metrics
 
