@@ -8,11 +8,18 @@ Data set contains information from the Ames Assessor’s Office used in computin
 The type of information contained in the data is similar to what a typical home buyer would want to know before making a purchase.
 
 
+
 ### Problem Statement
 
 This is a Regression problem in which the challenge is to predict the Sale Price of residential properties sold in Ames, IOWA given the house features such as neighborhood, square footage, number of full bathrooms, etc. 
 
 The task $T$ is a Regression and the experience $E$ is the list of houses and their sale price.
+**Task (T):** Use Regression to predict the Sale Price of houses in Ames, Iowa
+
+**Experience (E):** A Corpus of Housing Data containing information you would want to know before purchasing a residential property in Ames, Iowa.
+
+**Performance (P):** The accuracy with which the Sale Price of a residential property in Ames, Iowa is predicted as a percentage of the total number of houses for which Sale Price is predicted.
+
 
 
 ### Data Description
@@ -717,6 +724,8 @@ Access to the database can be gained from the Ames site (http://www.cityofames.o
 
 ### Solution
 
+A solution to this problem is to use one of the Regression models Linear Regression, Decision Tree Regressor, KNN Regressor or Support Vector Machine Regressor, to predict the Sale Price.
+
 
 ### Benchmark
 
@@ -725,3 +734,4 @@ Let's use the average Sale Price as our naive benchmark.
 
 ### Performance Metrics
 
+To measure the accuracy with which Sale Price is predicted, let's use Root Mean Square Error (RMSE).
